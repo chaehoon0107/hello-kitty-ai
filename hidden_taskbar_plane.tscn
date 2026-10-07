@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3]
+
+[sub_resource type="BoxShape3D" id="BoxShape_ground"]
+size = Vector3(12, 0.04, 3)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_ground"]
+size = Vector2(12, 3)
+
+[node name="HiddenTaskbarPlane" type="StaticBody3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, -0.02, 0)
+shape = SubResource("BoxShape_ground")
+
+[node name="Plane" type="MeshInstance3D" parent="."]
+visible = false
+cast_shadow = 0
+mesh = SubResource("PlaneMesh_ground")

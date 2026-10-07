@@ -1,0 +1,72 @@
+{
+  "source": "user separated GLB",
+  "bones": [
+    "Root",
+    "Hips",
+    "Spine",
+    "Head",
+    "UpperArm.L",
+    "Forearm.L",
+    "Hand.L",
+    "Thigh.L",
+    "Shin.L",
+    "Foot.L",
+    "UpperArm.R",
+    "Forearm.R",
+    "Hand.R",
+    "Thigh.R",
+    "Shin.R",
+    "Foot.R"
+  ],
+  "parts": {
+    "Tail": 84,
+    "Arm.L": 226,
+    "ChestPatch.R": 9,
+    "Overalls": 474,
+    "Bow": 497,
+    "BootInnerPatch.R": 9,
+    "CollarPatch": 9,
+    "Head": 915,
+    "Boot.L": 114,
+    "BootOuterPatch.R": 8,
+    "BowPatch": 9,
+    "ChestPatch.L": 9,
+    "ShoulderPatch.R": 9,
+    "Boot.R": 109,
+    "BootPatch.L": 8,
+    "Arm.R": 229
+  },
+  "joined_mesh": "KittyJoinedMesh",
+  "welded_shoulder_vertices": {
+    "L": 11,
+    "R": 13
+  },
+  "rigid_parts": {
+    "Head": "Head",
+    "Bow": "Head",
+    "Boot.L": "Foot.L",
+    "Boot.R": "Foot.R",
+    "Tail": "Hips",
+    "ChestPatch.R": "Spine",
+    "CollarPatch": "Spine",
+    "ChestPatch.L": "Spine",
+    "BootPatch.L": "Foot.L",
+    "BootOuterPatch.R": "Foot.R",
+    "BootInnerPatch.R": "Foot.R",
+    "BowPatch": "Head"
+  },
+  "animations": [
+    "Idle",
+    "Walk",
+    "Think",
+    "Notice"
+  ],
+  "walk_duration": 0.8,
+  "shading": "unshaded, repaired original textures",
+  "planted_sole_max_error": 3.1677322376300054e-08,
+  "body_height": "constant",
+  "minimum_triangle_area_ratio": 0.027507720875801358,
+  "minimum_surface_height": -0.4890137016773224,
+  "blend": "tools/pet_rigged_walk.blend",
+  "glb": "assets/pet_blender_rigged.glb"
+}

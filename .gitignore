@@ -1,0 +1,11 @@
+.godot/
+runtime/
+previews/
+ai/.venv/
+ai/models/
+ai/data/
+ai/server_info.json
+__pycache__/
+*.pyc
+*.lnk
+TRANSFER_MANIFEST.json
